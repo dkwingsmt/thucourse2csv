@@ -6,4 +6,4 @@ import py2exe
 import sys
 
 sys.argv = (sys.argv[0], 'py2exe')
-setup(console=["tk.py"])
+setup(console=["tkgui.py"])
