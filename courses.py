@@ -1,6 +1,23 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
 
+#    © Copyright 2012 MOU Tong (DKWings).
+#
+#    This file is part of thucourse2csv.
+#
+#    Thucourse2csv is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    Thucourse2csv is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with thucourse2csv.  If not, see <http://www.gnu.org/licenses/>.
+
 import xlrd
 import re
 import timebasic
@@ -138,7 +155,8 @@ def TryPlace(src_str):
             u'一教', u'二教', u'三教', u'四教', u'五教', u'六教',
             u'中央主楼', u'西主楼', u'东主楼', u'艺教中心', u'综合体育馆', 
             u'游泳馆', u'明理楼', u'技科楼', u'工物馆', u'东区体育活动中心', 
-            u'主楼报告厅', u'美院', u'建馆报告厅', u'综合馆'
+            u'主楼报告厅', u'美院', u'建筑馆报告厅', u'综合馆', u'伟伦楼',
+            u'精仪系馆', u'FIT大楼', u'FIT楼', u'东区棒垒球场'
             )
     for place in place_lst:
         if place in src_str:

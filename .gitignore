@@ -26,6 +26,10 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
+#Temp files
+*~
+*.swp
+
 #py2exe
 dist/
 build/
